@@ -1,0 +1,258 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    .hero-slider {
+        width: 100%;
+        background-position: right;
+    }
+
+    .hero-shape-1 {
+        left: 60px;
+    }
+
+    .hero-shape-2 {
+        left: 0px;
+    }
+
+    .hero-shape-3 {
+        left: 60px;
+
+    }
+
+    .hero-title h1 {
+        font-size: 60px;
+
+    }
+
+    .hero-width {
+        margin-left: 100px;
+
+    }
+
+    /* about-responsive */
+    .about {
+        overflow: hidden;
+    }
+
+    .about-shape-1 {
+        top: 0px;
+        left: 50px;
+
+    }
+
+    .about-shape-2 {
+        top: 0px;
+        right: 50px;
+
+    }
+
+    .about-shape-3 {
+        right: 10px;
+    }
+
+    .testimonial {
+        overflow: hidden;
+    }
+
+    /* service-responsive */
+    .service-shape-2 {
+        left: 100px;
+    }
+
+    .service-shape-3 {
+        right: 100px;
+    }
+
+    .service-shape-1 {
+        width: 200px;
+    }
+
+    .service-shape-4 {
+        width: 200px;
+    }
+
+    /* therapist-responsive */
+
+    .therapist-shape-1 {
+        left: 40px;
+
+    }
+
+    .therapist-shape-2 {
+        width: 250px;
+        right: 0px;
+
+    }
+
+    .therapist-shape-4 {
+        right: 0;
+        bottom: 22%;
+    }
+
+    /* contact-responsive */
+    .contact-shape-1 {
+        top: 250px;
+        left: 50px;
+    }
+
+    .contact-shape-4 {
+        bottom: 0px;
+        right: 0px;
+    }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hero-slider {
+        width: 100%;
+        background-position: right;
+    }
+
+    .hero-shape-1 {
+        left: 60px;
+    }
+
+    .hero-shape-2 {
+        left: 0px;
+    }
+
+    .hero-shape-3 {
+        left: 60px;
+
+    }
+
+    .hero-title h1 {
+        font-size: 60px;
+
+    }
+
+    .hero-width {
+        margin-left: 100px;
+
+    }
+
+    /* about-responsive */
+    .about {
+        overflow: hidden;
+    }
+
+    .about-shape-1 {
+        top: 0px;
+        left: 50px;
+
+    }
+
+    .about-shape-2 {
+        top: 0px;
+        right: 0px;
+
+    }
+
+    .about-shape-3 {
+        right: 10px;
+    }
+
+    .testimonial {
+        overflow: hidden;
+    }
+
+    /* service-responsive */
+    .service-shape-2 {
+        left: 100px;
+    }
+
+    .service-shape-3 {
+        right: 100px;
+    }
+
+    .service-shape-1 {
+        width: 200px;
+    }
+
+    .service-shape-4 {
+        width: 200px;
+    }
+
+    /* therapist-responsive */
+
+    .therapist-shape-1 {
+        left: 40px;
+
+    }
+
+    .therapist-shape-2 {
+        top: 15%;
+        width: 200px;
+        right: 0px;
+
+    }
+
+    .therapist-shape-4 {
+        right: 0;
+        bottom: 22%;
+    }
+
+    /* contact-responsive */
+    .contact-shape-1 {
+        top: 250px;
+        left: 50px;
+    }
+
+    .contact-shape-3 {
+        bottom: -125px;
+        left: 27px;
+    }
+
+    .contact-shape-4 {
+        opacity: 0;
+    }
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container{
+        width: 750px;
+    }
+    nav {
+        display: none;
+    }
+
+    .navber {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        width: 160px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .logo img {
+        margin-top: 23px;
+        width: 100%;
+
+    }
+    .social-icon{
+        display: none;
+    }
+
+    .responsive_btn {
+        display: none;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+
+}
