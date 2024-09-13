@@ -192,6 +192,14 @@
         bottom: 22%;
     }
 
+    /* content-responsive */
+
+
+    .content {
+        height: 740px;
+
+    }
+
     /* contact-responsive */
     .contact-shape-1 {
         top: 250px;
@@ -212,9 +220,10 @@
 
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-    .container{
+    .container {
         width: 750px;
     }
+
     nav {
         display: none;
     }
@@ -236,7 +245,8 @@
         width: 100%;
 
     }
-    .social-icon{
+
+    .social-icon {
         display: none;
     }
 
